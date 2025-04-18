@@ -1,0 +1,71 @@
+.calendar-dark-tile {
+  color: #FFFFFF !important;
+  background: #222 !important;
+  border-radius: 12px; 
+  overflow: hidden; 
+}
+.react-calendar.dark {
+  background-color: #333;
+  color: #fff;
+  border-radius: 12px; 
+  overflow: hidden;  
+  
+}
+.react-calendar.dark :hover{
+  border-radius: 12px; 
+  overflow: hidden;  
+}
+.react-calendar.dark .react-calendar__tile {
+  background-color: #444; 
+  color: #eee;  
+  border-radius: 5px;
+}
+.react-calendar__tile:focus {
+  outline: none;
+  box-shadow: none;
+  border-radius: 12px; 
+  overflow: hidden;  
+}
+/*  */
+.react-calendar, .react-calendar.dark {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.react-calendar, .react-calendar *:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.react-calendar__tile, .react-calendar__tile--active {
+  border-radius: 8px;
+}
+
+.react-calendar__tile--active {
+  background: #e4e0fa !important;  
+  color: #222 !important;
+}
+
+.react-calendar.dark .react-calendar__tile:hover {
+  background-color: #222;  
+  transition: background-color 0.3s ease;  
+  border-radius: 12px; 
+  overflow: hidden; 
+}
+
+.react-calendar__tile:disabled {
+  color: #bbb !important;
+  background: #fafafa !important;
+}
+.react-calendar.dark .react-calendar__tile:disabled {
+  color: #666 !important;
+  background: #222 !important;
+}
+.react-calendar__tile:disabled:hover,
+.react-calendar.dark .react-calendar__tile:disabled:hover {
+  background: inherit !important;
+  color: inherit !important;
+  cursor: default;
+  border-radius: 12px; 
+  overflow: hidden;  
+}
